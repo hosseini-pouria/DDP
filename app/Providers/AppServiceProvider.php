@@ -3,6 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Src\FactoryMethod\LinkedInPublisher;
+use Src\FactoryMethod\LinkedInPublisherFactory;
+use Src\FactoryMethod\MessagePublisher;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind(MessagePublisher::class, LinkedInPublisherFactory::class);
     }
 
     /**
