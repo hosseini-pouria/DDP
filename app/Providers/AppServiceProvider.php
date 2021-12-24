@@ -3,9 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Src\FactoryMethod\LinkedInPublisher;
-use Src\FactoryMethod\LinkedInPublisherFactory;
-use Src\FactoryMethod\MessagePublisher;
+use Src\FactoryMethod\Publisher\LinkedInPublisher;
+use Src\FactoryMethod\Publisher\LinkedInPublisherFactory;
+use Src\FactoryMethod\Publisher\MessagePublisher;
 
 class AppServiceProvider extends ServiceProvider
 {

@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Src\FactoryMethod\Message;
-use Src\FactoryMethod\MessagePublisher;
+use Src\FactoryMethod\Publisher\Message;
+use Src\FactoryMethod\Publisher\MessagePublisher;
 
 class MessagesController extends Controller
 {
