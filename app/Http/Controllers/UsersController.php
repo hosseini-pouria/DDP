@@ -20,7 +20,7 @@ class UsersController extends Controller
             'first_name' => $request->first_name,
             'last_name' => $request->last_name,
             'user_email' => $request->user_email,
-            'password' => $request->password,
+            'password' => $request->password
         ]);
 
         if ($user)
