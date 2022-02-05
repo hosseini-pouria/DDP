@@ -26,7 +26,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you may specify the number of minutes that you wish the session
-    | to be allowed to remain idle before it expires. If you want them
+    | to be allowed to remain idle Before it expires. If you want them
     | to immediately expire on the browser closing, set that option.
     |
     */
@@ -41,7 +41,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | This option allows you to easily specify that all of your session data
-    | should be encrypted before it is stored. All encryption will be run
+    | should be encrypted Before it is stored. All encryption will be run
     | automatically by Laravel and you can use the Session like normal.
     |
     */
