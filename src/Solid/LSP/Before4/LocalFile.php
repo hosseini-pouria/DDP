@@ -21,6 +21,6 @@ class LocalFile implements FileInterface
 
     public function changePermission()
     {
-        
+
     }
 }
