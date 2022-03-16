@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Solid\SRP\Before;
+namespace Src\Solid\SRP\After;
 
 interface TranslatorInterface
 {
