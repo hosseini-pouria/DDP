@@ -1,12 +1,12 @@
 <?php
 
-namespace Src\Solid\DIP\Before;
+namespace Src\Solid\DIP\After;
 
 use http\Exception\RuntimeException;
 
 class Authentication
 {
-    private $connection;
+    private Connection $connection;
 
     /**
      * @param Connection $connection

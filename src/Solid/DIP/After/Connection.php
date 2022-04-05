@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Solid\DIP\Before;
+namespace Src\Solid\DIP\After;
 
 class Connection
 {
