@@ -6,12 +6,12 @@ use Illuminate\Contracts\Events\Dispatcher;
 
 class UserService
 {
-    private $dispatcher;
+    private DispatcherInterface $dispatcher;
 
     /**
-     * @param Dispatcher $dispatcher
+     * @param DispatcherInterface $dispatcher
      */
-    public function __construct(Dispatcher $dispatcher)
+    public function __construct(DispatcherInterface $dispatcher)
     {
         $this->dispatcher = $dispatcher;
     }
