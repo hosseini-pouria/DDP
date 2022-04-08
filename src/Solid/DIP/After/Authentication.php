@@ -6,19 +6,19 @@ use http\Exception\RuntimeException;
 
 class Authentication
 {
-    private Connection $connection;
+    private UserProviderInterFace $user_provider;
 
     /**
-     * @param Connection $connection
+     * @param UserProviderInterFace $user_provider
      */
-    public function __construct(Connection $connection)
+    public function __construct(UserProviderInterFace $user_provider)
     {
-        $this->connection = $connection;
+        $this->user_provider = $user_provider;
     }
 
     public function check(string $username, string $password): bool
     {
-        $user = $this->connection->query("SELECT * FROM user WHERE username=?", ["username"=> $username]);
+        $user = $this->user_provider->findUser($username);
         if (!$user)
             throw new \RuntimeException('invalid username or password');
 
