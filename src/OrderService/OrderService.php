@@ -1,11 +1,21 @@
 <?php
 
-namespace Src;
+namespace Src\OrderService;
 
 class OrderService
 {
     private QuantityService $quantityService;
     private DiscountService $discountService;
+
+    /**
+     * @param QuantityService $quantityService
+     * @param DiscountService $discountService
+     */
+    public function __construct(QuantityService $quantityService, DiscountService $discountService)
+    {
+        $this->quantityService = $quantityService;
+        $this->discountService = $discountService;
+    }
 
     public function register(Basket $basket)
     {
