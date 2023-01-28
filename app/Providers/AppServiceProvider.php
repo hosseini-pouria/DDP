@@ -3,6 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Src\Notification\Notifier;
+use Src\Notification\TelegramAPI;
+use Src\Notification\TelegramNotifierAdapter;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +16,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind(Notifier::class, function ($app){
+            return new TelegramNotifierAdapter(new TelegramAPI(), 'sgsgsf464agfgasf');
+        });
     }
 
     /**
