@@ -6,27 +6,27 @@ Each branch has several examples (in each branch, each example has a commit).
 ### Check out the patterns:
 
 - **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/Factory-Method)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/Flyweight)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/Mediator)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/Visitor)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/abstractFactory)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/adapter)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/bridge)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/builder)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/chainOfresponsibilit)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/command)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/composite)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/decorator)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/facade)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/observer)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/proxy)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/state)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/strategy)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/templateMethod)**
+- **[Flyweight](https://github.com/hosseini-pouria/DDP/tree/Flyweight)**
+- **[Mediator](https://github.com/hosseini-pouria/DDP/tree/Mediator)**
+- **[Visitor](https://github.com/hosseini-pouria/DDP/tree/Visitor)**
+- **[Abstract Factory](https://github.com/hosseini-pouria/DDP/tree/abstractFactory)**
+- **[Adapter](https://github.com/hosseini-pouria/DDP/tree/adapter)**
+- **[Bridge](https://github.com/hosseini-pouria/DDP/tree/bridge)**
+- **[Builder](https://github.com/hosseini-pouria/DDP/tree/builder)**
+- **[Chain Of Responsibilit](https://github.com/hosseini-pouria/DDP/tree/chainOfresponsibilit)**
+- **[Command](https://github.com/hosseini-pouria/DDP/tree/command)**
+- **[Composite](https://github.com/hosseini-pouria/DDP/tree/composite)**
+- **[Decorator](https://github.com/hosseini-pouria/DDP/tree/decorator)**
+- **[Facade](https://github.com/hosseini-pouria/DDP/tree/facade)**
+- **[Observer](https://github.com/hosseini-pouria/DDP/tree/observer)**
+- **[Proxy](https://github.com/hosseini-pouria/DDP/tree/proxy)**
+- **[State](https://github.com/hosseini-pouria/DDP/tree/state)**
+- **[Strategy](https://github.com/hosseini-pouria/DDP/tree/strategy)**
+- **[Template Method](https://github.com/hosseini-pouria/DDP/tree/templateMethod)**
 
 
 ### Check out the principles:
   
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/solid)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/YAGNI-Repositories)**
-- **[Factory Method](https://github.com/hosseini-pouria/DDP/tree/Tell-Dont-Ask)**
+- **[Solid](https://github.com/hosseini-pouria/DDP/tree/solid)**
+- **[YAGNI](https://github.com/hosseini-pouria/DDP/tree/YAGNI-Repositories)**
+- **[Tell Dont Ask](https://github.com/hosseini-pouria/DDP/tree/Tell-Dont-Ask)**
