@@ -13,7 +13,7 @@ Each branch has several examples (in each branch, each example has a commit).
 - **[Adapter](https://github.com/hosseini-pouria/DDP/tree/adapter)**
 - **[Bridge](https://github.com/hosseini-pouria/DDP/tree/bridge)**
 - **[Builder](https://github.com/hosseini-pouria/DDP/tree/builder)**
-- **[Chain Of Responsibilit](https://github.com/hosseini-pouria/DDP/tree/chainOfresponsibilit)**
+- **[Chain Of Responsibilit](https://github.com/hosseini-pouria/DDP/tree/chainOfresponsibility)**
 - **[Command](https://github.com/hosseini-pouria/DDP/tree/command)**
 - **[Composite](https://github.com/hosseini-pouria/DDP/tree/composite)**
 - **[Decorator](https://github.com/hosseini-pouria/DDP/tree/decorator)**
